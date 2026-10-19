@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AZAMJON MEDIA</title>
+<style>
+body {
+  margin: 0;
+  background: #101018;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #202033;
+  padding: 20px;
+  text-align: center;
+}
+h1 { color: cyan; }
+main { padding: 15px; }
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.card {
+  background: #252538;
+  padding: 10px;
+  border-radius: 12px;
+}
+img, video {
+  width: 100%;
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>AZAMJON MEDIA</h1>
+  <p>Rasmlar va videolar olami 🚀</p>
+</header>
+<main>
+  <h2>📸 Rasmlar</h2>
+  <div class="gallery">
+    <div class="card">
+      <img src="https://picsum.photos/id/1015/400/300" alt="Tabiat">
+      <p>Tabiat 🌄</p>
+    </div>
+    <div class="card">
+      <img src="https://picsum.photos/id/1011/400/300" alt="Sayohat">
+      <p>Sayohat 🏔️</p>
+    </div>
+  </div>
+  <h2>🎬 Videolar</h2>
+  <div class="card">
+    <video controls src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+    <p>Mening videolarim</p>
+  </div>
+</main>
+</body>
+</html>
